@@ -7,6 +7,6 @@ gradle-app.setting
 .gradletasknamecache
 .project
 .classpath
-build\
+build/
 gradlew
 gradlew.bat
