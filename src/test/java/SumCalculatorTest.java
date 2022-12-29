@@ -26,6 +26,6 @@ class SumCalculatorTest {
 
     @Test
     public void testSum0() {
-        sumCalculator.sum(0);
+        assertThrows(IllegalArgumentException.class,() -> sumCalculator.sum(0));
     }
 }
