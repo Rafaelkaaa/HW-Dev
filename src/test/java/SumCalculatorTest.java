@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SumCalculatorTest {
     SumCalculator sumCalculator;
-
+// test
     @BeforeEach
     public void generateObject() {
         sumCalculator = new SumCalculator();
