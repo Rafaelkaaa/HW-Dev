@@ -10,8 +10,8 @@ class SumCalculatorTest {
     public void generateObject() {
         sumCalculator = new SumCalculator();
     }
-
 //test
+
     @Test
     public void testSum1() {
         assertEquals(1,
