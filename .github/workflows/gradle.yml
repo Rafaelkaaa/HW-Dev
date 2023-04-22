@@ -26,9 +26,5 @@ jobs:
       with:
         java-version: '19'
         distribution: 'adopt'
-    - name: Access to gradlew
-    - run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
     - name: Run unit tests
       run: ./gradlew test
