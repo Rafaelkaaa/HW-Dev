@@ -11,7 +11,7 @@ class SumCalculatorTest {
         sumCalculator = new SumCalculator();
     }
 
-//test
+
     @Test
     public void testSum1() {
         assertEquals(1,
